@@ -3,8 +3,9 @@ def difference(n):
 		difference = 20 - n
 	else:
 		difference = (n - 20) * 2
-	print(difference) 
 
-difference(19)
-difference(10)
-difference(23)
+	return difference 
+
+print(difference(19))
+print(difference(10))
+print(difference(23))
