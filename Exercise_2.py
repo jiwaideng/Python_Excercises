@@ -16,8 +16,9 @@ def near(n):
 	else:
 		uitkomst = False, abs(200 - n) 
 	
-	print(uitkomst)
-	return(uitkomst)
+	return uitkomst
+
+print(near(89))
 
 near(89)
 near(103)
