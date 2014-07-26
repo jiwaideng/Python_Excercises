@@ -16,12 +16,16 @@ def near(n):
 	else:
 		uitkomst = False, abs(200 - n) 
 	
+<<<<<<< HEAD
 	return uitkomst
 
 print(near(89))
+=======
+	return(uitkomst)
+>>>>>>> FETCH_HEAD
 
-near(89)
-near(103)
-near(195)
-near(223)
-near(64)
+print(near(89))
+print(near(103))
+print(near(195))
+print(near(223))
+print(near(64))
