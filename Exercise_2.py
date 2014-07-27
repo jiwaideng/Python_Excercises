@@ -10,19 +10,16 @@ def near(n):
 	elif n < 90:
 		uitkomst = False, 100 - n
 
-	elif n > 110 and n < 190:
+	elif n > 110 and n <= 150:
+		uitkomst = False, 100 - n
+
+	elif n > 150 and n < 190:
 		uitkomst = False, 200 - n
 
 	else:
 		uitkomst = False, abs(200 - n) 
 	
-<<<<<<< HEAD
 	return uitkomst
-
-print(near(89))
-=======
-	return(uitkomst)
->>>>>>> FETCH_HEAD
 
 print(near(89))
 print(near(103))
