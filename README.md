@@ -1,4 +1,4 @@
 Python_Excercises
 =================
 
-Some python exercises for a friend.
+Some excercises while learning python.
